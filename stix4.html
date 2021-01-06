@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wow</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<header>
+<script ENGINE="text/javascript" language="JavaScript">
+function daysLeftNewYear() {
+ today = new Date()
+ //Можно установить любую дату
+ nextDate = new Date("January 1, 2021")
+ //Количество миллисекунд в одном дне
+ msPerDay = 24*60*60*1000;
+ //Высчитываем количество дней
+ daysLeft = Math.round((nextDate.getTime() - today.getTime())/msPerDay);
+ dayname = ""
+ ds = ""+daysLeft
+ //Вырезаем последнею цифру
+ dd=parseInt(ds.substr(ds.length-1))
+ //Склоняем слово ДЕНЬ
+ if(daysLeft>4&&daysLeft<21)dayname=" дней"
+ else
+ if(dd==1)dayname=" день"
+ else
+ if(dd==2||dd==3||dd==4)dayname=" дня"
+ else dayname=" дней"
+ //Выводим надпись в документ
+ if(daysLeft<0) {document.write("С новым годом!!!")}
+ else {
+ if(daysLeft==0) {document.write("Завтра новый год!")} else {
+ document.write("До нового года осталось "+daysLeft+dayname+"!")}
+ }
+}
+</script>
+<div class="header1">
+	<nav>
+		<ul class="topmenu">
+		   	<li><a href="index.html">ГЛАВНАЯ</a></li>
+		   	<li><a href="#" class="vr">ДЕДУ МОРОЗУ</a>
+		   	<ul class="submenu">
+		   	<li><a href="pismo.html">ПИСЬМО ДЕДУ МОРОЗУ</a></li>
+		   	<li><a href="zhelan.html">МЕШОК ЖЕЛАНИЙ</a></li>
+		   	</ul>
+            </li>
+         </ul>
+	</nav>
+</div>
+<div class="ng">
+<script type="text/javascript" language="JavaScript">daysLeftNewYear()</script>
+</div>
+</div>
+</header>
+<div class="content">
+	<div class="content1">
+		<img src="wow1.png" class="wow1">
+		<a href="index2.html" class="pozdr"><h3>ПОЗДРАВЛЕНИЯ ОТ НАС</h3></a>
+		<div class="textcontent1">
+			<h6>Хотите поздравить своих родных/друзей с новым годом? Тогда обращайтесь к нам, мы звоним на указанный Вами номер.</h6>
+		</div>
+    </div>
+	<div class="content2">
+		<img src="wow2.png" class="wow2">
+		<a href="index3.html" class="cook"><h3>БЛЮДА НА НОВЫЙ ГОД</h3></a>
+		<div class="textcontent2">
+			<h6>Мы расскажем много интересных блюд и идей для новогоднего стола!</h6>
+		</div>
+	</div>
+	<div class="content3">
+		<img src="wow3.png" class="wow3">
+		<a href="index4.html" class="pozdr"><h3>СТИХОТВО-<br>РЕНИЯ</h3></a>
+		<div class="textcontent3">
+			<h6>Не знаете каким стихом поздравить человека? Мы можем подсказать Вам!</h6>
+		</div>
+	</div>
+</div>
+<div class="cooking2333">
+	<h3>ТРУБОЧКИ ИЗ КУРИНОГО ФИЛЕ С СЫРНЫМ КРЕМОМ</h3>
+    <label class="porcc">Выберите кол-во порций</label><br>
+    <select size="1" class="porc" onchange="document.getElementById('ymnoj').innerHTML=this.value * 500;
+    document.getElementById('ymnojj').innerHTML=this.value * 150;
+    document.getElementById('ymnoj').innerHTML=this.value * 300;
+    document.getElementById('ymno').innerHTML=this.value * 4;
+    document.getElementById('ymn').innerHTML=this.value * 300;
+    document.getElementById('ym').innerHTML=this.value * 500;
+    document.getElementById('y').innerHTML=this.value * 5;
+    document.getElementById('m').innerHTML=this.value * 140;
+        ">
+        <option selected="selected">1</option>
+        <option >2</option>
+        <option >3</option>
+        <option >4</option>
+    </select>
+<div class="fds">Морковь, отваренная в кожуре - <span id="ymnojj">150</span> г</div><br>
+Картофель, отваренный в мундире - <span id="ymnoj">300</span> г<br>
+Яйца, сваренные вкрутую - <span id="ymno">4</span> шт.<br>
+Горошек консервированный - <span id="ymn">300</span> г (масса без жидкости)<br>
+Колбаса вареная "Докторская" (можно и другую любую вареную) - <span id="ym">500</span> г<br>
+Огурцы соленые - <span id="y">5</span> шт.<br>
+Майонез - <span id="m">140</span> г
+<h3>ПОШАГОВОЕ ПРИГОТОВЛЕНИЕ</h3>
+Шаг 1<br>
+Варим картофель и морковь
+Сварить морковь и картофель.<br>
+Шаг 2<br>
+Варим яйца для оливье
+Сварить яйца вкрутую.<br>
+Шаг 3<br>
+Нарезаем яйца, картофель, колбасу и морковку
+Нарезать равными по размеру мелкими кубиками яйца, картофель, колбасу, морковку.<br>
+Шаг 4<br>
+Для салата Оливье режем огурцы
+Огурцы нарезать и немного отжать, чтобы не было много жидкости в салате.<br>
+Шаг 5<br>
+Смешиваем салат Оливье
+В нарезанные ингредиенты всыпать горошек (слив воду из него), нарезать зелень, смешать с майонезом. Посолить и поперчить. Убрать в холодильник на 1 ч.
+</div>
+<footer>
+<div class="footer1">
+	&copy; Новый год 2021. Все права защищены.
+</div>
+</footer>
+<div class="sneggg" id="sneggg">
+    <div class="sneg1 bounce-1"></div>
+	<div class="sneg1 bounce-2" ></div>
+	<div class="sneg1 bounce-3"></div>
+	<div class="sneg1 bounce-4"></div>
+	<div class="sneg1 bounce-5"></div>
+	<div class="sneg1 bounce-6"></div>
+	<div class="sneg1 bounce-7"></div>
+	<div class="sneg1 bounce-8"></div>
+	<div class="sneg1 bounce-9"></div>
+	<div class="sneg1 bounce-10"></div>
+	<div class="sneg1 bounce-11"></div>
+	<div class="sneg1 bounce-12" ></div>
+	<div class="sneg1 bounce-13"></div>
+	<div class="sneg1 bounce-14"></div>
+	<div class="sneg1 bounce-15"></div>
+	<div class="sneg1 bounce-16"></div>
+	<div class="sneg1 bounce-17"></div>
+	<div class="sneg1 bounce-18"></div>
+	<div class="sneg1 bounce-19"></div>
+	<div class="sneg1 bounce-20"></div>
+	<div class="sneg1 bounce-23"></div>
+	<div class="sneg1 bounce-24"></div>
+	<div class="sneg1 bounce-25"></div>
+	<div class="sneg1 bounce-26"></div>
+	<div class="sneg1 bounce-27"></div>
+	<div class="sneg1 bounce-28"></div>
+	<div class="sneg1 bounce-29"></div>
+	<div class="sneg1 bounce-30"></div>
+	<div class="sneg1 bounce-31"></div>
+	<div class="sneg1 bounce-32"></div>
+	<div class="sneg1 bounce-33"></div>
+	<div class="sneg1 bounce-34"></div>
+	<div class="sneg1 bounce-35"></div>
+	<div class="sneg1 bounce-36"></div>
+	<div class="sneg1 bounce-37"></div>
+	<div class="sneg1 bounce-38"></div>
+	<div class="sneg1 bounce-39"></div>
+	<div class="sneg1 bounce-40"></div>
+</div>
+</body>
+</html>
